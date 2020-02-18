@@ -1,0 +1,69 @@
+body
+{
+	background-color: #white; /*Color de ejemplo*/
+
+}
+
+
+#menu
+{
+	float: right;
+	font-size: 40px;
+	font-family: Arial;
+	border: 3px;
+}
+
+#logo
+{
+	float: left;
+
+}
+
+
+.ubicacion
+{
+	color: #17202A;
+	background: #E74C3C;
+	border: 2px solid;
+	border-radius: 6px;
+		
+
+
+}
+
+.ubicacion:hover
+{
+	background-color: #E74C3C;
+	color: white;
+}
+
+.zona
+{
+	color: #17202A;
+	background: #E74C3C;
+	border: 2px solid;
+	border-radius: 6px;
+	
+	
+}
+
+.zona:hover
+{
+	background-color: #E74C3C;
+	color: white;
+}
+
+.info
+{
+	color: #17202A;
+	background: #E74C3C;
+	border: 2px solid;
+	border-radius: 6px;
+	
+}
+
+.info:hover
+{
+	background-color: #E74C3C;
+	color: white;
+}

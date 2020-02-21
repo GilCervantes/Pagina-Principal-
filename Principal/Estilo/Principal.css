@@ -1,0 +1,111 @@
+body
+{
+	background-color: #E9D9B8; /*Color de ejemplo*/
+}
+
+
+#menu
+{
+	float: right;
+	font-size: 10px;
+	font-family: Times;
+	border: 0px;
+}
+
+#logo
+{
+	position: absolute;
+	left: 50px;
+    top: 67px; 
+}
+
+nav a
+{
+    text-decoration:none;
+    color:inherit;
+    font-size:40px;
+}
+
+nav li
+{
+    display: inline-block;
+    width:320px;
+    height:47px;
+    background-color:#CA8468;
+    border:2px solid #BC6643;
+    text-align:center;
+    color:#77402A;
+    float: right; 
+    position: relative;
+    top: -35px;
+    left: 20px;    /*Izquierda a derecha(no tocar)*/
+    width: 300px;  /*No mover si no vale madre todo*/
+}
+
+nav li:hover
+{
+    background-color:#E6C1B2;
+    color:#77402A;
+}
+
+nav li>ul
+{
+    display:none;
+}
+
+nav li:hover>ul
+{
+    display: inline-block; 
+    position:absolute;
+    top:85px; 
+    right: 18px;  /*Dejarlo bien*/
+}
+
+.encabezado
+{
+	padding: 90px;
+	margin: 30px;
+	background-color: white;
+	border: solid 3px #AE5C3C;
+}
+
+.cuadro
+{
+    padding: 150px;
+    margin: 100px;
+    background-color: white;
+    border: solid 3px #B36B3D;
+    position: absolute;
+    top: 150px;
+    left: -62px;
+    width: 50px;
+    height: 250px; /*Altura*/
+}
+
+.Ruta
+{
+    position: absolute;
+    left: 12px;
+    width: 325px;
+    top: 15px;
+    height: 40px;
+    font-family: Arial;
+    font-size: 26px;
+    background-color: #CA8468;
+    color: #78342B;
+    border: 2px solid #BC6643;
+}
+
+.cuadro_mapa
+{
+    padding: 150px;
+    margin: 150px;
+    background-color: white;
+    border: solid 3px #BC6643;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    right: -113px;
+    height: 250px;
+}
+

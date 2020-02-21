@@ -1,0 +1,72 @@
+body
+{
+	background-color: #E9D9B8; /*Color de ejemplo*/
+
+}
+
+
+#menu
+{
+	float: right;
+	font-size: 10px;
+	font-family: Times;
+	border: 0px;
+}
+
+#logo
+{
+	position: absolute;
+	left: 50px;     /*De la izquiera a derecha.*/
+	bottom: 450px;  /*De abajo hacia arriba.*/
+}
+
+nav a
+{
+    text-decoration:none;
+    color:inherit;
+    font-size:40px;
+    
+}
+
+nav li
+{
+    display: inline-block;
+    width:320px;
+    height:47px;
+    background-color:#CA8468;
+    border:2px solid #BC6643;
+    text-align:center;
+    color:#77402A;
+    float: right; 
+    position: relative;
+    top: -35px;
+    left: -150px;    /*Izquierda a derecha(no tocar)*/
+    width: 300px;  /*No mover si no vale madre todo*/
+}
+
+nav li:hover
+{
+    background-color:#E6C1B2;
+    color:#77402A;
+}
+
+.encabezado
+{
+	padding: 90px;
+	margin: 30px;
+	background-color: white;
+	border: solid 3px #AE5C3C;
+}
+
+.cuadro
+{
+    padding: 150px;
+    margin: 100px;
+    background-color: white;
+    border: solid 3px #B36B3D;
+    position: absolute;
+    top: 150px;
+    left: -62px;
+    width: 50px;
+    height: 250px; /*Altura*/
+}

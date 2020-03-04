@@ -3,10 +3,12 @@ body
 	background-color: #E9D9B8; /*Color de ejemplo*/
 }
 
+@media screen and (max-width:800px) {
+.cuadro_mapa, .encabezado, .cuadro{display:none;}
+}
 
 #menu
 {
-	float: right;
 	font-size: 10px;
 	font-family: Times;
 	border: 0px;
@@ -24,9 +26,10 @@ nav a
     text-decoration:none;
     color:inherit;
     font-size:40px;
+
 }
 
-nav li
+nav li      
 {
     display: inline-block;
     width:320px;
@@ -76,10 +79,10 @@ nav li:hover>ul
     background-color: white;
     border: solid 3px #B36B3D;
     position: absolute;
-    top: 150px;
+    top: 170px;
     left: -62px;
     width: 50px;
-    height: 250px; /*Altura*/
+    height: 200px; /*Altura*/
 }
 
 .Ruta
@@ -103,9 +106,17 @@ nav li:hover>ul
     background-color: white;
     border: solid 3px #BC6643;
     position: absolute;
-    top: 100px;
+    top: 120px;
     left: 300px;
-    right: -113px;
-    height: 250px;
+    right: -112px;
+    height: 200px;
+}
+
+.mapaUno
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 340px;
 }
 

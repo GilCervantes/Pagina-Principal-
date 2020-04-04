@@ -1,41 +1,58 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Bienvenido a EnRuta-Me!</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="C:\Integrador En Ruta-Me\EnRuta-Me\Principal\Estilo\Principal.css
 	">
-
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="C:\Integrador En Ruta-Me\EnRuta-Me\Principal\Js\Principal.js"></script>
+	<!--Mapa-->
+	<script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
 </head>
+	
+	
 <body>
 
-	<div id="menu">
+		<!-- S E L E C T O R  D E  R U T A -->
+			<select class="rutas" name="Selecciona tu ruta:">
+				<option selected><strong>Selecciona tu ruta:</strong></option>
+				<datalist><!-- Aqui, en teoria, pondremos la columna nombre_ruta de la base de datos --> </datalist>
+			</select>
 
-		<nav>
-			<ul>
-				<a class="ubicacion" href="">¿A dónde vas?</a>
-			
+		<!-- C U A D R O  &   M A P A--> 
+			<div class="cuadro_mapa">
+				<iframe class="map" src="C:\Integrador En Ruta-Me\EnRuta-Me\Principal\Tarahumara.html"></iframe>
+			</div>
 
-				<a class="zona" href="">Zona</a>
-			
+		<br>
+		<!--E N C A B E Z A D O-->
+			<div class="logo">
+				<img src="C:\Integrador En Ruta-Me\EnRuta-Me\Principal\Img\LogoUnoCopia.png" width="150" height="110">
+			</div>
+		<header>
+			<div class="menuPrincipal">
+				<!--Boton responsivo menu-->
+				<a href="#" class="botonMenu"><img src="C:\Integrador En Ruta-Me\EnRuta-Me\Iconos\left-alignment.png" width="60" height="60">Menú</a>
+			</div>
 
-				<a class="info" href="">Información</a>
-
-			</ul>
-		</nav>
-	</div>
-
-	<div id="logo">
-		<img src="C:\Integrador En Ruta-Me\EnRuta-Me\Principal\Img\LogoUno.png"
-		height="150" width="200">
-	</div>
-
-	
-
-
-	
-
-
-
+			<nav>
+				<ul>
+					<li><a href="C:\Integrador En Ruta-Me\EnRuta-Me\A donde vas\A donde vas.html" target="_blank"><img src="C:\Integrador En Ruta-Me\EnRuta-Me\Iconos\placeholder.png" width="35" height="35"><strong>¿Qué camión tomaré?</strong></a></li>
+					<li class="submenu">
+						<a href="#"><img src="C:\Integrador En Ruta-Me\EnRuta-Me\Iconos\compass.png" width="35" height="35"><strong>Zona</strong></a>
+						<ul class="zonas">
+							<li><a href="#"><strong>Norte</strong></a></li>
+							<li><a href="#"><strong>Sur</strong></a></li>
+							<li><a href="#"><strong>Este</strong></a></li>
+							<li><a href="#"><strong>Oeste</strong></a></li>
+						</ul>
+					</li>
+					<li><a href="C:\Integrador En Ruta-Me\EnRuta-Me\Informacion\Informacion.html" target="_blank"><img src="C:\Integrador En Ruta-Me\EnRuta-Me\Iconos\light-bulb.png" width="35" height="35"><strong>Información</strong></a></li>
+				</ul>
+			</nav>
+		</header>
 </body>
-</html>
